@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00b4d8;
+    border-radius: 0px 0px 32px 32px;
+    padding: 0 150px 0 150px;
+}
+
+header img{
+    width: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%; /* Se logra poner redondo */
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 35px;
+    margin-right: 45px;
+    color: #14213d;
+
+}
